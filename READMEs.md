@@ -18,7 +18,7 @@ The **SlimmingApp** API will allow queries against the Mongodb database to obtai
 
 
 GET
-http://localhost:8000/api/category/  -> show list Category 
+http://localhost:8000/api/category  -> show list Category 
 
 POST
 http://localhost:8000/api/category/create -> create Category  
@@ -38,7 +38,7 @@ http://localhost:8000/api/category/:categoryId -> delete food
 ####Postman endpoints Food
 
 GET
-http://localhost:8000/api/food/  -> show list food 
+http://localhost:8000/api/food  -> show list food 
 
 POST
 http://localhost:8000/api/food/create -> create food  

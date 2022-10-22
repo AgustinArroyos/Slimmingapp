@@ -12,7 +12,7 @@ The **SlimmingApp** API will allow queries against the Mongodb database to obtai
 
 ####Run Server
 
-`$ npm run dev
+`$ npm start
 
 ####Postman endpoints Category
 

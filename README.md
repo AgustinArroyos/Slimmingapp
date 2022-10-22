@@ -28,7 +28,12 @@ http://localhost:8000/api/category/create -> create Category
         trim: true,
         required: true,
         unique: true
-    }
+    	}
+example
+
+	{
+    	"name":"ideal",
+    	}
 
 DELETE
 http://localhost:8000/api/category/:categoryId -> delete food  
@@ -64,6 +69,13 @@ http://localhost:8000/api/food/create -> create food
         require: true
     }
 	
+example 
+
+	{
+    	"name":"orange",
+    	"calories": 50,
+    	"category": "6353bc55bb46c7679493ab25"
+	}	
 	
 DELETE
 http://localhost:8000/api/food/:foodId-> delete food  
